@@ -7,7 +7,16 @@ cd ~/tmpC1/
 
 wget https://raw.githubusercontent.com/krooly/c1/master/app.application > /dev/null
 
-cat app.application
+#cat app.application
 
-cd ..
-#rm -rf ~/tmpC1/
+sudo apt-get install xml2
+
+${stringZ:(-4)}
+versionApp=`xml2 < app.application | grep assembly/*assemblyIdentity/@version`
+
+num=`expr index $versionApp '='`
+versionApp=${versionApp:(-num)}
+
+echo $versionApp
+
+rm -rf ~/tmpC1/
