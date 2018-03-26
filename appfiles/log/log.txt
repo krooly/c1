@@ -1,5 +1,5 @@
 2017-11-20 12:02:26.8177 INFO 
-
+TEST
 Started at 20.11.2017 12:02:26 !
 2017-11-20 12:02:27.1921 INFO > Migration0.Migrate
 2017-11-20 12:02:27.8473 INFO   migration 0 ok
