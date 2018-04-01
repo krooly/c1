@@ -674,3 +674,19 @@ System.ArgumentNullException: Значение не может быть неопределенным.
 Имя параметра: PortName
    в System.IO.Ports.SerialPort.set_PortName(String value)
    в Orbita.CNC.B50.b50machineExecutor.connect(SerialPortInfo selectedPort) в C:\coding\orbita.cnc.b50\Orbita.CNC.B50\Controllers\b50machineExecutor.cs:строка 70
+2018-04-01 01:29:14.5520 INFO 
+
+Started at 01.04.2018 1:29:14 !
+2018-04-01 01:29:14.6768 INFO > Migration0.Migrate
+2018-04-01 01:30:43.1868 INFO 
+
+Started at 01.04.2018 1:30:43 !
+2018-04-01 01:30:43.2960 INFO > Migration0.Migrate
+2018-04-01 01:33:57.3463 INFO 
+
+Started at 01.04.2018 1:33:57 !
+2018-04-01 01:33:57.4443 INFO > Migration0.Migrate
+2018-04-01 01:58:18.2561 INFO 
+
+Started at 01.04.2018 1:58:18 !
+2018-04-01 01:58:18.3497 INFO > Migration0.Migrate
